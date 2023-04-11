@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1" >
+        <TextView
+            android:text="Control Panl"
+            android:layout_width="match_parent"
+            android:layout_height="61.5dp"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff"
+            android:background="#ff000000"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center|top"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="62.0dp"
+            android:id="@+id/linearLayout5"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">
+            <Button
+                android:text="Add Teachers"
+                android:layout_width="140.0dp"
+                android:layout_height="48.5dp"
+                android:id="@+id/AddTeachers"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+            <Button
+                android:text="Delete"
+                android:layout_width="140.0dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/Delete"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="62.0dp"
+            android:id="@+id/linearLayout3"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">           
+            <Button
+                android:text="Class"
+                android:layout_width="140.0dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/Class"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+                      <Button
+                android:text="Cancel"
+                android:layout_width="140.0dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/Cancel"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+         <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="62.0dp"
+            android:id="@+id/linearLayout4"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#ffeceff1">   
+            
+            <Button
+                android:text="Back"
+                android:layout_width="140.0dp"
+                android:layout_height="46.5dp"
+                android:id="@+id/Back"
+                android:backgroundTint="#ff263238"
+                android:layout_margin="10dp"
+                android:textColor="#ffffffff"/>
+            </LinearLayout>
+            
+    </LinearLayout>
+</RelativeLayout>
+
